@@ -31,7 +31,7 @@ Identify and fix the issue in the least amount of time possible.
 * 5 - Determine when the solution can be safely applied to production
 * 6 - Test the solution
 * 7 - Apply the solution to:
-* * 7.1 - next build
-* * 7.2 - hot fix (treat as emergency)
+ * 7.1 - next build
+ * 7.2 - hot fix (treat as emergency)
 * 8 - Communicate affected people / clients that the issue has been solved
 * 9 - Do a post-mortum meeting to document all information from the issue and define effective ways to avoid it on the future

@@ -39,13 +39,13 @@ Identify and fix the issue in the least amount of time possible.
  
 ### Checklist items
 
-1 - Identify
+#### 1 - Identify
 
 The source of the issue needs to be identified to properly create the response team. For example if a server is not functional the task force should be mainly focused on operations team, while if the issue is software related the task force should be focused to the development team.
 
 The identification of the issue will also help determine how critical it is to be applied as hot fix or not.
 
-2 - Create a small task for to handle the issue:
+#### 2 - Create a small task for to handle the issue:
 
 It is important that we define the persons and roles that are required on the task force to properly solve the issue. The list bellow shows a task force for a software development issue.
 
@@ -54,31 +54,31 @@ It is important that we define the persons and roles that are required on the ta
 * who will be responsible to deploy the fix to production
 * who will be the communication endpoint for the client about the status of the issue
 
-3 - Find the best solution for the issue
+#### 3 - Find the best solution for the issue
 
 This might be as simple as doing a change on the database that would make the client to function for a period of time until a proper fix is done or a more elaborated fix that requires software development, testing, etc.
 
-4 - Agree on the solution
+#### 4 - Agree on the solution
 
 Once the solution is defined all roles of the task force must be in conformity that the solution to be applied will suffice to solve the issue. If there is no agreement there is no reasonable way to correctly determine that the patch will work.
 
-5 - Determine when the solution can be safely applied to production
+#### 5 - Determine when the solution can be safely applied to production
 
 It all depends on the client. If the cient is a retail store and you are applying a patch that will interrupt it services during a period of time that will also reflect in loss of money from the client side therefore the patch should be applied after hours.
 
-6 - Test the solution
+#### 6 - Test the solution
 
 Every patch should be throughly tested even if it requires regression testing. Obviously integration tools that runs unit tests helps on cases like these but if that is not available for your application the quality engineer responsible on the task force should define
 what will be needed as tests to safely apply the patch in production.
 
-7 - Apply the solution to either next release or as a hotfix
+#### 7 - Apply the solution to either next release or as a hotfix
 
 This is not simple but it goes back to step 1. Is the issue critical enough that it will require a hot fix or is it something that can be done in the next release.
 
-8 - Communication
+#### 8 - Communication
 
 It is important to communicate to all parties involved that a fix has been done and when it will be deployed. This will help dimishing expectations from all parties involved.
 
-9 - Post Mortum
+#### 9 - Post Mortum
 
 A meeting is required to document the issue and all steps required to fix and what are the next steps required to apply the fix in the existing codebase, etc. The concept of the meeting is that issues like these can be avoided completely in next releases.
